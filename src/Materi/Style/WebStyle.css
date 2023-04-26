@@ -1,0 +1,44 @@
+.webBg {
+  height: 100vh;
+  background-image: url(../img/3.3.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-size: cover;
+}
+.intro {
+  justify-content: center;
+  height: 50%;
+  align-items: center;
+}
+.title {
+  font-size: 5rem;
+  font-weight: 500;
+  line-height: 1;
+  margin-bottom: 40%;
+  text-shadow: 2px 2px black;
+  letter-spacing: 4px;
+}
+
+.content {
+  background-image: url(../img/3.1.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  display: flex;
+  background-size: cover;
+  justify-content: center;
+}
+
+.end {
+  background-image: url(../img/3.jpg);
+  height: 100vh;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  display: flex;
+  background-size: cover;
+}
