@@ -1,8 +1,10 @@
 import React from "react";
-import "./Materi/Style/WebStyle.css";
-import NavigationBar from "./Materi/StylingComponent/Navbar";
-import Intro from "./Materi/StylingComponent/Intro";
-import Content from "./Materi/StylingComponent/Content";
+import Form from "./Materi/Form/Pembahasan";
+
+// import "./Materi/Style/WebStyle.css";
+// import NavigationBar from "./Materi/StylingComponent/Navbar";
+// import Intro from "./Materi/StylingComponent/Intro";
+// import Content from "./Materi/StylingComponent/Content";
 
 // // import Komponen from "./Materi/Komponen";
 // import MyNavbar from "./Materi/Komponen/Pembahasan/Task-Basic-Component/Navbar";
@@ -14,17 +16,21 @@ import Content from "./Materi/StylingComponent/Content";
 function App() {
   return (
     <div className="App">
-      {/* Intro */}
-      <div className="webBg">
-        <NavigationBar />
-        <Intro />
-      </div>
-      <div className="content">
-        <Content />
-      </div>
-      <div className="end"></div>
-      {/* End of intro */}
+      <Form />
     </div>
+
+    // <div className="App">
+    //   {/* Intro */}
+    //   <div className="webBg">
+    //     <NavigationBar />
+    //     <Intro />
+    //   </div>
+    //   <div className="content">
+    //     <Content />
+    //   </div>
+    //   <div className="end"></div>
+    //   {/* End of intro */}
+    // </div>
   );
 }
 
